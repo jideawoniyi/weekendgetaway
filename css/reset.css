@@ -224,8 +224,7 @@ html {
   text-align: center;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  color: #fff;
+  border-radius: none;
   font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
 }
@@ -235,17 +234,17 @@ html {
 }
 
 .linkedin {
-  background-color: #0077B5;
+  color: #0077B5;
 }
 
 .facebook {
-  background-color: #3B5998;
+  color: #3B5998;
 }
 
 .twitter {
-  background-color: #1DA1F2;
+  color: #1DA1F2;
 }
 
 .instagram {
-  background-color: #C13584;
+  color: #C13584;
 }
