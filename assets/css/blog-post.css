@@ -1,0 +1,53 @@
+/* Main content */
+main {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+/* Blog post section */
+.blog-post h1 {
+  color: #d00000; /* Red color for the title */
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-post p {
+  font-size: 1rem;
+}
+
+.blog-post p:first-of-type {
+  color: #d00000; /* Red color for the author and date */
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #ffc300; /* Yellow background */
+  border-left: 5px solid #d00000; /* Red border */
+  font: italic bold 1.2rem/1.5 'Roboto', sans-serif;
+  text-align: center;
+}

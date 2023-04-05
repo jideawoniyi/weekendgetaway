@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Subscribe to Post</title>
+    <link rel="stylesheet" href="css/subscribe.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="character-spacing.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-nvNzxT1aVpN48NWXSCJdNvqoXlLb3qtszW1xLp+R40hCwGm0m8Wf+o68vKGxxJXbq3q8+l97iaie28vNaBkCug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-PmCwsB1J/xh+tTpDdX9p0L7g0hjJbH2asBm0+cWU2dd6oh0a6yg/rdME8OD/6Jpy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="subscribe.html">Subscribe</a>
+    </nav>
+</header>
+
+ 
+<body>
+
+    <form class="contact" action="mailto:weekendescape@icloud.com" method="post" enctype="text/plain">
+        <h1>Subscribe to a Post</h1>
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		<label for="message">Additional Information:</label>
+		<textarea name="message" id="message"></textarea>
+		<button type="submit">Submit</button>
+      </form>
+
+    <footer>
+        <p>&copy; 2023 Unleash Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>

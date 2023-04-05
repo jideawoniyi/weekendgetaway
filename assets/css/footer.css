@@ -1,0 +1,16 @@
+/* Set footer styles */
+footer {
+  background-color: #000000; /* Complementary color */
+  color: #fff; /* White text color for better legibility */
+  text-align: center;
+  padding: 2rem;
+  z-index: 1200;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Subtle box-shadow */
+  position: relative; /* Added for the box-shadow to be visible */
+}
+
+footer p {
+  font-size: 1rem; /* Smaller font size */
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif; /* Easy-to-read font */
+}
