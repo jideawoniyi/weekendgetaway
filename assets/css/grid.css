@@ -1,0 +1,32 @@
+
+        /* Add CSS styles for the contact form here */
+        header nav {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .contact-form form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            align-items: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form h1 {
+            grid-column: 1 / -1;
+            text-align: center;
+        }
+
+        .contact-form textarea {
+            grid-column: 1 / -1;
+        }
+
+        .contact-form button {
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
+
