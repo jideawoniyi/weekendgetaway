@@ -3,11 +3,6 @@ span .explore {
   border-bottom: 3px solid red;
 }
 
-/* span .explore{
-  font-size: 2rem;
-  font-weight: bold;
-} */
-
 .author {
   display: flex;
   flex-direction: column;
