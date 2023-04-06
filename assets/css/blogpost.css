@@ -1,0 +1,143 @@
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  blockquote {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color:  rgba(226, 158, 0, 0.5);/* Changed to a vibrant yellow color */
+    border-radius: 8px; /* Added a border-radius for rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added a subtle box-shadow */
+    border-left: 5px solid #333; /* Changed border-left color to dark */
+    font: italic bold 20px/1.5 sans-serif; /* Increased the font size */
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    color: #333; /* Changed text color to dark */
+  }
+  
+  .card {   
+    margin: 60px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: calc(50% - 2rem);
+  }
+  
+ 
+  
+  /* style.css */
+  body {
+    padding-top: calc(1rem * 2 + 2rem); /* Header padding * 2 (top and bottom) + desired space */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  
+  main {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 2rem;
+  }
+  
+
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container img {
+  margin-right: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.social-icons a {
+  display: block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: none;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.facebook {
+  color: #3B5998;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.instagram {
+  color: #C13584;
+}
+
+.home_title{
+  text-align: center;
+}
+
+/* Home Title Section */
+.home-title-container {
+  display: grid;
+  place-items: center;
+  height: 30vh;
+}
+
+
+.home_title h3 {
+  text-align: center;
+}
+
+.home_title p {
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+/* .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+} */
+
+figcaption{
+font-size: 8px;
+font-weight: bold;
+}
+
+

@@ -1,6 +1,6 @@
 /* Header styles */
 header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(226, 158, 0, 0.5);
   color:black;
   padding: 1rem;
   position: fixed;
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #f5d742; /* Add a color for hover effect */
+  color: black; /* Add a color for hover effect */
   transform: translateY(-2px); /* Move the link slightly upwards */
 }
 
@@ -38,7 +38,7 @@ nav a::before {
   left: 0;
   right: 0;
   height: 2px;
-  background-color: #f5d742;
+  background-color: #000000;
   transform: scaleX(0);
   transition: transform 0.3s ease;
   z-index: -1;

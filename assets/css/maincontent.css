@@ -1,4 +1,29 @@
+
+/* For headings */
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.5px;
+  }
+  
+  /* For body text */
+  body {
+    letter-spacing: 0.25px;
+  }
+  
+  /* For navigation menu items */
+  nav a {
+    letter-spacing: 1px;
+  }
+  
+  
 .main-content {
     margin-top: calc(1rem + 2rem); /* Header padding + desired space */
+  }
+
+  nav a.active {
+	text-decoration: none;
+	background-color: rgba(166, 104, 0, 0.7);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
   }
   

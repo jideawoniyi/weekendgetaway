@@ -2,47 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/blogpost.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="character-spacing.css">
+    <link rel="stylesheet" href="maincontnet.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-</head>
+    </head>
 <body>
-
     <header>
         <nav>
             <a href="home.html">Home</a>
-            <a href="about.html">About</a>
+            <a href="about.html" class="active">About</a>
             <a href="contact.html">Contact</a>
             <a href="subscribe.html">Subscribe</a>
         </nav>
     </header>
 
-    <div class="card-container">
-        <aside class="card">
-          <h3>About Me</h3>
-          <figure>
-            <img src="img/club.jpg" width="100%" height="auto" alt="Avatar" class="card__avatar">
-            <figcaption>This is the guy!</figcaption>
-          </figure>
-      
-          <div class="card__info">
-            <p><strong>Name:</strong></p>
-            <p>John Doe</p>
-            <p><strong>Title:</strong></p>
-            <p>Web Developer</p>
-            <p><strong>Current Company/School:</strong></p>
-            <p>Unleash Media</p>
-            <p><strong>Short Bio:</strong></p>
-            <p>"Exploring the world, one keystroke at a time. Follow along on my journey through life and technology."</p>
-          </div>
-        </aside>
-      </div>
-      
+    <main>
+        <article>
+          <section class="author">
+            <div class="author__img">
+              <img src="img/club.jpg" alt="Image the author" width="30%" height="30%">
+              <figcaption>   <p>Jide Awoniyi</p> </figcaption>
+            </div>
+            <div class="author__info">
+              <h3>Jide Awoniyi</h3>
+              <p class="title">Web Developer</p>
+              <p class="company">Unleash Media</p>
+              <p class="bio">
+                "Exploring the world, one keystroke at a time. Follow along on my journey
+                through life and technology."
+              </p>
+            </div>
+          </section>
+        </article>
+    </main>
 
     <footer>
         <p>&copy; 2023 Unleash Media. All rights reserved.</p>
@@ -50,3 +45,5 @@
 </body>
 </html>
 
+
+       

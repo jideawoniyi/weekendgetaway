@@ -1,0 +1,103 @@
+.sidebar {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+
+.sidebar__header {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #333;
+}
+
+.sidebar__header h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.sidebar__content {
+  padding: 1rem 0;
+}
+
+.sidebar__content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar__content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar__content ul li a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.sidebar__content ul li a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media (max-width: 480px) {
+  .sidebar {
+    max-width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .sidebar {
+    max-width: 80%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .sidebar {
+    max-width: 300px;
+  }
+}
+
+.sidebar__header {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sidebar__content {
+  padding: 1rem;
+}
+
+.sidebar__content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar__content li {
+  margin-bottom: 1rem;
+}
+
+.sidebar__content a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar__content a:hover {
+  background-color: rgba(226, 158, 0, 0.5);
+  color: #000;
+}
+
+
+
